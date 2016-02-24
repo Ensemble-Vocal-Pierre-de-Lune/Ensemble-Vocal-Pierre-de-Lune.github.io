@@ -1,6 +1,13 @@
 ---
 layout: default
 ---
+<div class="col-sm-2"></div>
+<div class="col-sm-10">
+  <h1 class="logo">
+    <span class="logo-big-caps">P</span><span style="position: relative; right: 43px; top: -20px;">ierre de</span>
+    <span class="logo-big-caps" style="position: relative; right: 99px;">L</span><span style="position: relative; right: 156px; top: -20px;">une</span>
+  </h1>
+</div>
 <div class="col-sm-2">
   <nav>
     <ul class="nav nav-pills nav-stacked">
@@ -26,8 +33,10 @@ layout: default
       motets de J.S. Bach, F. Mendelssohn et J. Brahms, Petite Messe Solennelle de Rossini, Chansons des années 40-50 de Hindemith, Poulenc et Britten, etc.
     </p>
   </div>
-  <div class="tab-pane active text-style" id="avenir">
+  <div class="tab-pane text-style" id="avenir">
     <h2>Concerts à venir</h2>
-    <p>[contenu ici...]</p>
+    List des concerts : {% for concert in site.posts %}
+      <p>{{concert.title}}</p>
+    {% endfor %}
   </div>
 </div>
