@@ -10,5 +10,6 @@ twitter_username: evpdl
 
 # Build settings
 markdown: kramdown
-exclude: 
+future: true
+exclude:
   - old-site
