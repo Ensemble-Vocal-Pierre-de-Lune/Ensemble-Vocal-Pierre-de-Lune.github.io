@@ -1,0 +1,59 @@
+/* Link to the cursive web font "margaret" */
+@font-face {
+    font-family: 'margaret';
+    src: url('/font/margaret_regular-webfont.eot');
+    src: url('/font/margaret_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/font/margaret_regular-webfont.woff2') format('woff2'),
+         url('/font/margaret_regular-webfont.woff') format('woff'),
+         url('/font/margaret_regular-webfont.ttf') format('truetype'),
+         url('/font/margaret_regular-webfont.svg#margaretregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+  font-family: Georgia, Times, serif;
+}
+
+/* Square corners on nav bar pills */
+.nav-pills>li>a {
+  border-radius: 0px;
+}
+
+/* nav bar colours and fonts */
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover
+{
+  color: #f5f54c;
+  background-color: #414157;
+}
+
+a,
+a:focus,
+a:hover
+{
+  color: #5f5f80;
+}
+
+.nav-pills a {
+  font-family: Georgia, Times, serif;
+  font-size: 18px;
+}
+
+/* logo */
+.logo
+{
+  font-family: margaret;
+  font-size: 47px;
+  color: #414157;
+  line-height: 140%;
+}
+
+.logo-big-caps
+{
+  font-size: 208px;
+  text-shadow: 8px 5px 3px #d2d2da;
+}
