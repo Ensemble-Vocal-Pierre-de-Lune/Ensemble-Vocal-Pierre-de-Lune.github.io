@@ -35,8 +35,10 @@ layout: default
   </div>
   <div class="tab-pane text-style" id="avenir">
     <h2>Concerts à venir</h2>
-    List des concerts : {% for concert in site.posts %}
-      <p>{{concert.title}}</p>
-    {% endfor %}
+    <ul>
+      {% for concert in site.posts %}
+        <li>{{ concert.date | date: "%c" }} : <a href="{{ concert.url }}">{{ concert.title }}</a></li>
+      {% endfor %}
+    </ul>
   </div>
 </div>
