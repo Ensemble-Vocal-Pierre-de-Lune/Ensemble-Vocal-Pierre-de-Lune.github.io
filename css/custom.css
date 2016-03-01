@@ -40,14 +40,14 @@ a:hover
 
 .nav-pills a {
   font-family: Georgia, Times, serif;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 /* logo */
-.logo
+.logo-big
 {
   font-family: margaret;
-  font-size: 47px;
+  font-size: 46px;
   color: #414157;
   line-height: 140%;
 }
@@ -56,4 +56,18 @@ a:hover
 {
   font-size: 208px;
   text-shadow: 8px 5px 3px #d2d2da;
+}
+
+.logo-small
+{
+  font-family: margaret;
+  font-size: 18px;
+  color: #414157;
+  line-height: 140%;
+}
+
+.logo-small-caps
+{
+  font-size: 84px;
+  text-shadow: 3px 2px 2px #d2d2da;
 }
