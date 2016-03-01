@@ -1,7 +1,7 @@
 ---
 layout: concert
 title:  "Dombresson"
-date:   2016-02-28 18:00
+date:   2016-05-08 17:00
 categories: concert
 oeuvres: Musique sacrée Italienne, a cappella et avec orgue
 lieu: Temple de Dombresson
