@@ -6,6 +6,7 @@ layout: default
     <ul class="nav nav-pills nav-stacked">
       <li class="active"><a href="#accueil" data-toggle="pill">Accueil</a></li>
       <li><a href="#avenir" data-toggle="pill">Concerts à venir</a> </li>
+      <li><a href="#passé" data-toggle="pill">Concerts passés</a> </li>
     </ul>
   </nav>
 </div>
@@ -38,9 +39,39 @@ layout: default
     <h2>Concerts à venir</h2>
     <ul>
       {% for concert in site.posts %}
+        {% comment %} Show only future concerts, with custom date format {% endcomment %}
+        {% if site.time < concert.date %}
+          <li>
+            {{ concert.date | date: '%d' }} {% assign m = concert.date | date: "%-m" %}
+            {% case m %}
+              {% when '1' %}janvier
+              {% when '2' %}février
+              {% when '3' %}mars
+              {% when '4' %}avril
+              {% when '5' %}mai
+              {% when '6' %}juin
+              {% when '7' %}juillet
+              {% when '8' %}août
+              {% when '9' %}septembre
+              {% when '10' %}octobre
+              {% when '11' %}novembre
+              {% when '12' %}décembre
+            {% endcase %}
+            {{ concert.date | date: '%Y' }}
+            à {{ concert.date | date: '%H' }}h{{ concert.date | date: '%M' }}  :
+            <a href="{{ concert.url }}">{{ concert.title }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="tab-pane text-style" id="passé">
+    <h2>Concerts passés</h2>
+    <ul>
+      {% for concert in site.posts %}
         <li>
-          {% comment %} Show only future concerts, with custom date format {% endcomment %}
-          {% if site.time < concert.date %}
+          {% comment %} Show only past concerts, with custom date format {% endcomment %}
+          {% if site.time > concert.date %}
             {{ concert.date | date: '%d' }} {% assign m = concert.date | date: "%-m" %}
             {% case m %}
               {% when '1' %}janvier
