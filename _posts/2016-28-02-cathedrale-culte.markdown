@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: concert
 title:  "Cathédrale St-Pierre, participation au culte"
 date:   2016-02-28 18:00
 categories: concert
+oeuvres: Zelenka, Missa dei Filii ZWG 20 (extraits)
 ---
 
 Zelenka, Missa dei Filii ZWG 20 (extraits)
