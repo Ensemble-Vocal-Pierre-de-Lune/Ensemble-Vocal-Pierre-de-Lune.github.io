@@ -42,24 +42,10 @@ layout: default
         {% comment %} Show only future concerts, with custom date format {% endcomment %}
         {% if site.time < concert.date %}
           <li>
-            {{ concert.date | date: '%d' }} {% assign m = concert.date | date: "%-m" %}
-            {% case m %}
-              {% when '1' %}janvier
-              {% when '2' %}février
-              {% when '3' %}mars
-              {% when '4' %}avril
-              {% when '5' %}mai
-              {% when '6' %}juin
-              {% when '7' %}juillet
-              {% when '8' %}août
-              {% when '9' %}septembre
-              {% when '10' %}octobre
-              {% when '11' %}novembre
-              {% when '12' %}décembre
-            {% endcase %}
-            {{ concert.date | date: '%Y' }}
-            à {{ concert.date | date: '%H' }}h{{ concert.date | date: '%M' }}  :
-            <a href="{{ concert.url }}">{{ concert.title }}</a>. {{ concert.lieu }}
+            <a href="{{ concert.url }}">
+            {% include date.liquid date=concert.date %}
+            à {{ concert.date | date: '%H' }}h{{ concert.date | date: '%M' }},
+            {{ concert.lieu }} : {{ concert.title }}</a>.
           </li>
         {% endif %}
       {% endfor %}
@@ -72,27 +58,13 @@ layout: default
         {% comment %} Show only past concerts, with custom date format {% endcomment %}
         {% if site.time > concert.date %}
           <li>
-            {{ concert.date | date: '%d' }} {% assign m = concert.date | date: "%-m" %}
-            {% case m %}
-              {% when '1' %}janvier
-              {% when '2' %}février
-              {% when '3' %}mars
-              {% when '4' %}avril
-              {% when '5' %}mai
-              {% when '6' %}juin
-              {% when '7' %}juillet
-              {% when '8' %}août
-              {% when '9' %}septembre
-              {% when '10' %}octobre
-              {% when '11' %}novembre
-              {% when '12' %}décembre
-            {% endcase %}
-            {{ concert.date | date: '%Y' }}
-            à {{ concert.date | date: '%H' }}h{{ concert.date | date: '%M' }}  :
-            <a href="{{ concert.url }}">{{ concert.title }}</a>. {{ concert.lieu }}
+            <a href="{{ concert.url }}">
+            {% include date.liquid date=concert.date %}
+            à {{ concert.date | date: '%H' }}h{{ concert.date | date: '%M' }},
+            {{ concert.lieu }} : {{ concert.title }}</a>.
           </li>
-          {% endif %}
-      {% endfor %}
+        {% endif %}
+     {% endfor %}
     </ul>
   </div>
   <img src="/images/photoRequiem_crop1.jpg" style="width: 100%"/>
