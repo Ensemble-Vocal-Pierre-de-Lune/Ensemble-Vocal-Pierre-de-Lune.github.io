@@ -13,3 +13,4 @@ markdown: kramdown
 future: true
 exclude:
   - old-site
+  - .bitballoon
