@@ -1,0 +1,5 @@
+## Header configuration for BitBalloon
+
+# Page privée pour choristes
+/choristes.html
+  Basic-Auth: choriste:evpdl
