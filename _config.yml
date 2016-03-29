@@ -1,4 +1,4 @@
-# Site settings
+﻿# Site settings
 title: Ensemble Vocal Pierre de Lune
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
@@ -11,6 +11,9 @@ twitter_username: evpdl
 # Build settings
 markdown: kramdown
 future: true
+include:
+  - _headers
 exclude:
   - old-site
   - .bitballoon
+  - old_site_concerts_export.xlsx
