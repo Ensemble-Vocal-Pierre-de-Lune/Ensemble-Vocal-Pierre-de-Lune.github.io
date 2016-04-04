@@ -1,71 +1,55 @@
 ---
 layout: default
 ---
-<div class="col-sm-2">
-  <nav>
-    <ul class="nav nav-pills nav-stacked">
-      <li class="active"><a href="#accueil" data-toggle="pill">Accueil</a></li>
-      <li><a href="#avenir" data-toggle="pill">Concerts à venir</a> </li>
-      <li><a href="#passé" data-toggle="pill">Concerts passés</a> </li>
-    </ul>
-  </nav>
-</div>
-<!-- Tab contents -->
-<div class="tab-content col-sm-10">
-  <h1 class="logo-big hidden-xs">
-    <span class="logo-big-caps">P</span><span style="position: relative; right: 43px; top: -20px;">ierre de</span>
-    <span class="logo-big-caps" style="position: relative; right: 99px;">L</span><span style="position: relative; right: 154px; top: -20px;">une</span>
-  </h1>
-  <h1 class="logo-small hidden-sm hidden-md hidden-lg">
-    <span class="logo-small-caps">P</span><span style="position: relative; right: 16px; top: -9px;">ierre de</span>
-    <span class="logo-small-caps" style="position: relative; right: 35px;">L</span><span style="position: relative; right: 57px; top: -9px;">une</span>
-  </h1>
-  <div class="tab-pane active text-style" id="accueil">
-    <h2>Accueil</h2>
-    <p>
-      L' Ensemble vocal Pierre de Lune a été fondé en 2004 et a pour vocation l'étude et la représentation
-      d'œuvres chorales du répertoire classique et contemporain a capella ou avec accompagnement.
-    </p>
-    <p>
-      Composé d'une vingtaine de chanteurs aguerris, il est dirigé par Emmanuel Junod qui a travaillé la direction
-      auprès de Michel Corboz et Eric Bauer.
-    </p>
-    <p>
-      L’Ensemble Vocal qui a donné son premier concert le 23 janvier 2005 à Genève, interprète un répertoire varié :
-      motets de J.S. Bach, F. Mendelssohn et J. Brahms, Petite Messe Solennelle de Rossini, Chansons des années 40-50 de Hindemith, Poulenc et Britten, etc.
-    </p>
-  </div>
-  <div class="tab-pane text-style" id="avenir">
-    <h2>Concerts à venir</h2>
-    <ul>
-      {% for concert in site.posts %}
-        {% comment %} Show only future concerts, with custom date format {% endcomment %}
-        {% if site.time < concert.date %}
-          <li>
-            <a href="{{ concert.url }}">
-            {% include date.liquid date=concert.date %}
-            à {{ concert.date | date: '%H' }}h{{ concert.date | date: '%M' }},
-            {{ concert.lieu }} : {{ concert.title }}</a>.
-          </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </div>
-  <div class="tab-pane text-style" id="passé">
-    <h2>Concerts passés</h2>
-    <ul>
-      {% for concert in site.posts %}
-        {% comment %} Show only past concerts, with custom date format {% endcomment %}
-        {% if site.time > concert.date %}
-          <li>
-            <a href="{{ concert.url }}">
-            {% include date.liquid date=concert.date %}
-            à {{ concert.date | date: '%H' }}h{{ concert.date | date: '%M' }},
-            {{ concert.lieu }} : {{ concert.title }}</a>.
-          </li>
-        {% endif %}
-     {% endfor %}
-    </ul>
-  </div>
+{% comment %}
+Page with default layout must provide a tab with class "tab-pane text-style"
+{% endcomment %}
+
+<div class="tab-pane text-style active" id="accueil">
+  <h2>Accueil</h2>
+  <p>
+    L' Ensemble vocal Pierre de Lune a été fondé en 2004 et a pour vocation l'étude et la représentation
+    d'œuvres chorales du répertoire classique et contemporain a capella ou avec accompagnement.
+  </p>
+  <p>
+    Composé d'une vingtaine de chanteurs aguerris, il est dirigé par Emmanuel Junod qui a travaillé la direction
+    auprès de Michel Corboz et Eric Bauer.
+  </p>
+  <p>
+    L’Ensemble Vocal qui a donné son premier concert le 23 janvier 2005 à Genève, interprète un répertoire varié :
+    motets de J.S. Bach, F. Mendelssohn et J. Brahms, Petite Messe Solennelle de Rossini, Chansons des années 40-50 de Hindemith, Poulenc et Britten, etc.
+  </p>
   <img src="/images/photoRequiem_crop1.jpg" style="width: 100%"/>
+</div>
+<div class="tab-pane text-style" id="avenir">
+  <h2>Concerts à venir</h2>
+  <ul>
+    {% for concert in site.posts %}
+    {% comment %} Show only future concerts, with custom date format {% endcomment %}
+    {% if site.time < concert.date %}
+    <li>
+      <a href="{{ concert.url }}">
+        {% include date.liquid date=concert.date %}
+        à {{ concert.date | date: '%H' }}h{{ concert.date | date: '%M' }},
+        {{ concert.lieu }} : {{ concert.title }}</a>.
+    </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+</div>
+<div class="tab-pane text-style" id="passé">
+  <h2>Concerts passés</h2>
+  <ul>
+    {% for concert in site.posts %}
+    {% comment %} Show only past concerts, with custom date format {% endcomment %}
+    {% if site.time > concert.date %}
+    <li>
+      <a href="{{ concert.url }}">
+        {% include date.liquid date=concert.date %}
+        à {{ concert.date | date: '%H' }}h{{ concert.date | date: '%M' }},
+        {{ concert.lieu }} : {{ concert.title }}</a>.
+    </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
 </div>

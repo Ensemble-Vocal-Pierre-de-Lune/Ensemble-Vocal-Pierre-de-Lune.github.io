@@ -3,7 +3,11 @@
 {% include head.html %}
 <body>
 <div class="container-fluid">
-  {{ content }}
+  {% include nav.html %}
+  <div class="tab-content col-sm-10">
+    {% include logo.html %}
+    {{ content }}
+  </div>
 </div>
 {% include js-includes.html %}
 </body>
