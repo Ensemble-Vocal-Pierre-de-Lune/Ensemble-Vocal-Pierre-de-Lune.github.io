@@ -21,35 +21,3 @@ Page with default layout must provide a tab with class "tab-pane text-style"
   </p>
   <img src="/images/photoRequiem_crop1.jpg" style="width: 100%"/>
 </div>
-<div class="tab-pane text-style" id="avenir">
-  <h2>Concerts à venir</h2>
-  <ul>
-    {% for concert in site.posts %}
-    {% comment %} Show only future concerts, with custom date format {% endcomment %}
-    {% if site.time < concert.date %}
-    <li>
-      <a href="{{ concert.url }}">
-        {% include date.liquid date=concert.date %}
-        à {{ concert.date | date: '%H' }}h{{ concert.date | date: '%M' }},
-        {{ concert.lieu }} : {{ concert.title }}</a>.
-    </li>
-    {% endif %}
-    {% endfor %}
-  </ul>
-</div>
-<div class="tab-pane text-style" id="passé">
-  <h2>Concerts passés</h2>
-  <ul>
-    {% for concert in site.posts %}
-    {% comment %} Show only past concerts, with custom date format {% endcomment %}
-    {% if site.time > concert.date %}
-    <li>
-      <a href="{{ concert.url }}">
-        {% include date.liquid date=concert.date %}
-        à {{ concert.date | date: '%H' }}h{{ concert.date | date: '%M' }},
-        {{ concert.lieu }} : {{ concert.title }}</a>.
-    </li>
-    {% endif %}
-    {% endfor %}
-  </ul>
-</div>
