@@ -1,16 +1,4 @@
 /* Link to the cursive web font "margaret" */
-@font-face {
-    font-family: 'margaret';
-    src: url('/font/margaret_regular-webfont.eot');
-    src: url('/font/margaret_regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/font/margaret_regular-webfont.woff2') format('woff2'),
-         url('/font/margaret_regular-webfont.woff') format('woff'),
-         url('/font/margaret_regular-webfont.ttf') format('truetype'),
-         url('/font/margaret_regular-webfont.svg#margaretregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 body
 {
