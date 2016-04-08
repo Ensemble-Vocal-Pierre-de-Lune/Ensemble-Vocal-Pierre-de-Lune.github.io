@@ -2,7 +2,7 @@
     <nav>
         <ul class="nav nav-pills nav-stacked">
             <!-- page.url = {{ page.url }} -->
-            {% if page.url == '/index.html' || page.url or '/' %}<li class="active">{% else %}<li>{% endif %}<a href="/index.html">Accueil</a></li>
+            {% if page.url == '/index.html' or page.url == '/' %}<li class="active">{% else %}<li>{% endif %}<a href="/index.html">Accueil</a></li>
             {% if page.url == '/concerts-a-venir.html' %}<li class="active">{% else %}<li>{% endif %}<a href="/concerts-a-venir.html">Concerts à venir</a> </li>
             {% if page.url == '/concerts-passes.html' %}<li class="active">{% else %}<li>{% endif %}<a href="/concerts-passes">Concerts passés</a> </li>
         </ul>
