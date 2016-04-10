@@ -1,8 +1,16 @@
 /* Link to the cursive web font "margaret" */
-
 body
 {
   font-family: Georgia, Times, serif;
+}
+
+/* Bootstrap adjustments */
+
+/* set a max-width for horizontal fluid layout and make it centered */
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 950px;
 }
 
 /* Square corners on nav bar pills */
@@ -30,6 +38,8 @@ a:hover
   font-family: Georgia, Times, serif;
   font-size: 16px;
 }
+
+/* End Bootstrap adjustments */
 
 /* logo */
 .logo-big
