@@ -16,4 +16,4 @@ include:
 exclude:
   - old-site
   - .bitballoon
-  - old_site_concerts_export.xlsx
+  - _data/old_site_concerts_export.xlsx
