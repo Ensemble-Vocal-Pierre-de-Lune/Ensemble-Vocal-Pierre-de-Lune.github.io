@@ -1,23 +1,17 @@
 ---
 layout: default
 ---
-{% comment %}
-Page with default layout must provide a tab with class "tab-pane text-style"
-{% endcomment %}
-
-<div class="tab-pane text-style active" id="concerts-a-venir">
-  <h2>Concerts à venir</h2>
-  <ul>
-    {% for concert in site.posts %}
-    {% comment %} Show only future concerts, with custom date format {% endcomment %}
-    {% if site.time < concert.date %}
-    <li>
-      <a href="{{ concert.url }}">
-        {% include date.liquid date=concert.date %}
-        à {{ concert.date | date: '%H' }}h{{ concert.date | date: '%M' }},
-        {{ concert.lieu }} : {{ concert.title }}</a>.
-    </li>
-    {% endif %}
-    {% endfor %}
-  </ul>
-</div>
+<h2>Concerts à venir</h2>
+<ul>
+  {% for concert in site.posts %}
+  {% comment %} Show only future concerts, with custom date format {% endcomment %}
+  {% if site.time < concert.date %}
+  <li>
+    <a href="{{ concert.url }}">
+      {% include date.liquid date=concert.date %}
+      à {{ concert.date | date: '%H' }}h{{ concert.date | date: '%M' }},
+      {{ concert.lieu }} : {{ concert.title }}</a>.
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>

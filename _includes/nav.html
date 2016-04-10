@@ -3,8 +3,10 @@
         <ul class="nav nav-pills nav-stacked">
             <!-- page.url = {{ page.url }} -->
             {% if page.url == '/index.html' or page.url == '/' %}<li class="active">{% else %}<li>{% endif %}<a href="/index.html">Accueil</a></li>
-            {% if page.url == '/concerts-a-venir.html' %}<li class="active">{% else %}<li>{% endif %}<a href="/concerts-a-venir.html">Concerts à venir</a> </li>
+            {% if page.url == '/concerts-a-venir.html' %}<li class="active">{% else %}<li>{% endif %}<a href="/concerts-a-venir">Concerts à venir</a> </li>
             {% if page.url == '/concerts-passes.html' %}<li class="active">{% else %}<li>{% endif %}<a href="/concerts-passes">Concerts passés</a> </li>
+            {% if page.url == '/nous-soutenir.html' %}<li class="active">{% else %}<li>{% endif %}<a href="/nous-soutenir">Nous soutenir</a> </li>
+            {% if page.url == '/nous-rejoindre.html' %}<li class="active">{% else %}<li>{% endif %}<a href="/nous-rejoindre">Nous rejoindre</a> </li>
         </ul>
     </nav>
 </div>
