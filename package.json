@@ -2,6 +2,17 @@
   "_aerobatic": {
     "build": {
       "engine": "jekyll"
-    }
+    },
+    "router": [
+      {
+        "module": "basic-auth",
+        "path": "/choristes",
+        "options": {
+          "username": "$CHORISTE_USERNAME",
+          "password": "$CHORISTE_PASSWORD",
+          "failedLoginPeriod": 120
+        }
+      }
+    ]
   }
 }
