@@ -1,6 +1,6 @@
 ---
 layout: concert
-title:  "Musique sacrée italienne à Dombresson"
+title:  "Musique sacrée italienne"
 date:   2016-05-08 17:00
 categories: concert
 lieu: Temple de Dombresson (NE)

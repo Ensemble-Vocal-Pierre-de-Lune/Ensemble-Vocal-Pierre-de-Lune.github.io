@@ -2,21 +2,25 @@
 layout: default
 ---
 <h2>Concerts passés</h2>
+<div class="table-responsive">
 {% for concert in site.posts %}
   {% comment %} Show only past concerts, with custom date format {% endcomment %}
   {% if site.time > concert.date %}
     {% assign currentdate = concert.date | date: "%Y" %}
     {% if currentdate != date %}
-      {% unless forloop.first %}</ul>{% endunless %}
+      {% unless forloop.first %}</table>{% endunless %}
       <h2 id="y{{concert.date | date: "%Y"}}">{{ currentdate }}</h2>
-      <ul>
+      <table class="table table-condensed">
+        <tbody>
       {% assign date = currentdate %}
-      {% endif %}
-      <li>
-        <a href="{{ concert.url }}">
-          {% include date-time.liquid date=concert.date %}
-          {{ concert.lieu}} : {{ concert.title }}</a>
-      </li>
+    {% endif %}
+    <tr>
+      <td class="col-md-2"><a href="{{ concert.url }}">{% include date-time.liquid date=concert.date %}</a></td>
+      <td class="col-md-4"><a href="{{ concert.url }}">{{ concert.lieu}}</a></td>
+      <td class="col-md-3"><a href="{{ concert.url }}">{{ concert.title }}</a></td>
+    </tr>
+    </tbody>
   {% endif %}
 {% endfor %}
-</ul>
+</table>
+</div>
