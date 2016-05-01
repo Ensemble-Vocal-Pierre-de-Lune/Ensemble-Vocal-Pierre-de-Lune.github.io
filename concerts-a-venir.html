@@ -3,7 +3,7 @@ layout: default
 ---
 <h2>Concerts à venir</h2>
 <ul>
-  {% for concert in site.posts %}
+  {% for concert in site.posts reversed %}
   {% comment %} Show only future concerts, with custom date format {% endcomment %}
   {% if site.time < concert.date %}
   <li>
