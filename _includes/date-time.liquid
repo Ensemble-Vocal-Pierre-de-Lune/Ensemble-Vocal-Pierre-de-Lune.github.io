@@ -14,3 +14,4 @@
   {% when '12' %}décembre
 {% endcase %}
 {{ include.date | date: '%Y' }}
+à {{ include.date | date: '%H' }}h{{ include.date | date: '%M' }}

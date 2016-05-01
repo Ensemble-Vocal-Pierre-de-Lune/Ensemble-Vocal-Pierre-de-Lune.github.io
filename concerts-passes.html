@@ -14,9 +14,8 @@ layout: default
       {% endif %}
       <li>
         <a href="{{ concert.url }}">
-          {% include date.liquid date=concert.date %}
-          à {{ concert.date | date: '%H' }}h{{ concert.date | date: '%M' }},
-          {{ concert.title }}</a>.
+          {% include date-time.liquid date=concert.date %}
+          {{ concert.lieu}} : {{ concert.title }}</a>
       </li>
   {% endif %}
 {% endfor %}
