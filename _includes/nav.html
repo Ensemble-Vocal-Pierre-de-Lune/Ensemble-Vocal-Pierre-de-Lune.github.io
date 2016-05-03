@@ -1,10 +1,14 @@
 <div class="col-sm-3">
   <nav>
+    {% if active-url %}
+    {% else %}
+      {% assign active-url = page.url %}
+    {% endif %}
     <ul class="nav nav-pills nav-stacked">
       {% assign nav-pages = site.pages | sort:"menu-order"  %}
       {% for nav-page in nav-pages %}
         {% if nav-page.title %}
-          {% if nav-page.url == page.url %}<li class="active">{% else %}<li>{% endif %}<a href="{{nav-page.url}}">{{ nav-page.title }}</a></li>
+          {% if nav-page.url == active-url %}<li class="active">{% else %}<li>{% endif %}<a href="{{nav-page.url}}">{{ nav-page.title }}</a></li>
         {% endif %}
       {% endfor %}
     </ul>

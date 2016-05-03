@@ -3,6 +3,11 @@
 {% include head.html %}
 <body>
 <div class="container-fluid">
+  {% if site.time > page.date %}
+    {% assign active-url = '/concerts-passes.html' %}
+  {% else %}
+    {% assign active-url = '/concerts-a-venir.html' %}
+  {% endif %}
   {% include nav.html %}
   <div class="tab-content col-sm-9">
     {% include logo.html %}

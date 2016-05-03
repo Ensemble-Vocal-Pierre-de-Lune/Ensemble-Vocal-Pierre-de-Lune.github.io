@@ -8,7 +8,7 @@ menu-order: 1
 <table class="table table-condensed">
   {% for concert in site.posts reversed %}
   {% comment %} Show only future concerts, with custom date format {% endcomment %}
-  {% if site.time < concert.date %}
+  {% if site.time <= concert.date %}
     <tbody>
     <tr>
       <td class="col-md-2"><a href="{{ concert.url }}">{% include date-time.liquid date=concert.date %}</a></td>
