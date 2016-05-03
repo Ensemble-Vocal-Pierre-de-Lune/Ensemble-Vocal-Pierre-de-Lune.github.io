@@ -1,7 +1,9 @@
 ---
 layout: default
+title: Concerts à venir
+menu-order: 1
 ---
-<h2>Concerts à venir</h2>
+<h2>{{ page.title }}</h2>
 <div class="table-responsive">
 <table class="table table-condensed">
   {% for concert in site.posts reversed %}

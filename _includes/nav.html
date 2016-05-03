@@ -1,12 +1,12 @@
 <div class="col-sm-3">
-    <nav>
-        <ul class="nav nav-pills nav-stacked">
-            <!-- page.url = {{ page.url }} -->
-            {% if page.url == '/index.html' or page.url == '/' %}<li class="active">{% else %}<li>{% endif %}<a href="/index.html">Accueil</a></li>
-            {% if page.url == '/concerts-a-venir.html' %}<li class="active">{% else %}<li>{% endif %}<a href="/concerts-a-venir">Concerts à venir</a> </li>
-            {% if page.url == '/concerts-passes.html' %}<li class="active">{% else %}<li>{% endif %}<a href="/concerts-passes">Concerts passés</a> </li>
-            {% if page.url == '/nous-soutenir.html' %}<li class="active">{% else %}<li>{% endif %}<a href="/nous-soutenir">Nous soutenir</a> </li>
-            {% if page.url == '/nous-rejoindre.html' %}<li class="active">{% else %}<li>{% endif %}<a href="/nous-rejoindre">Nous rejoindre</a> </li>
-        </ul>
-    </nav>
+  <nav>
+    <ul class="nav nav-pills nav-stacked">
+      {% assign nav-pages = site.pages | sort:"menu-order"  %}
+      {% for nav-page in nav-pages %}
+        {% if nav-page.title %}
+          {% if nav-page.url == page.url %}<li class="active">{% else %}<li>{% endif %}<a href="{{nav-page.url}}">{{ nav-page.title }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>
 </div>

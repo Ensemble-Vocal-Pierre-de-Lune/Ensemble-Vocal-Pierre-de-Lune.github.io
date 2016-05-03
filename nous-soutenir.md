@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Nous soutenir
+menu-order: 3
 ---
 
 ## Comment soutenir le choeur ##
