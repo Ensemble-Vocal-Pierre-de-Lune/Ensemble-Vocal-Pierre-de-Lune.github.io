@@ -10,10 +10,9 @@
   {% endif %}
   {% include nav.html %}
   <div class="tab-content col-sm-9">
-    <img class="img-responsive"
-         src="/affiches/{{ page.affiche }}"
-         alt="Image de l'affiche du concert {{ page.title }}"
-    />
+    <object height="770" width="500" data="/affiches/{{ page.affiche }}" type="application/pdf">
+      <a href="/affiches/{{ page.affiche }}">Voir l'affiche en PDF</a>
+    </object>
   </div>
 </div>
 {% include js-includes.html %}
