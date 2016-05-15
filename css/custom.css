@@ -10,7 +10,7 @@ body
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
-  max-width: 950px;
+  max-width: 1050px;
 }
 
 /* Square corners on nav bar pills */
@@ -37,6 +37,16 @@ a:hover
 .nav-pills a {
   font-family: Georgia, Times, serif;
   font-size: 16px;
+}
+
+/* Square corners on accordion */
+div.panel.panel-default {
+  border-radius: 0px;
+}
+.panel-default>.panel-heading {
+  border-radius: 0px;
+  color: #f5f54c;
+  background-color: #414157;
 }
 
 /* End Bootstrap adjustments */
