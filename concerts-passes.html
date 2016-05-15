@@ -17,7 +17,7 @@ menu-order: 2
       {% assign date = currentdate %}
     {% endif %}
     <tr>
-      <td class="col-md-2"><a href="{{ concert.url }}">{% include date-time.liquid date=concert.date %}</a></td>
+      <td class="col-md-2"><a href="{{ concert.url }}">{% include date.liquid date=concert.date %}</a></td>
       <td class="col-md-4"><a href="{{ concert.url }}">{{ concert.lieu}}</a></td>
       <td class="col-md-3"><a href="{{ concert.url }}">{{ concert.title }}</a></td>
     </tr>
