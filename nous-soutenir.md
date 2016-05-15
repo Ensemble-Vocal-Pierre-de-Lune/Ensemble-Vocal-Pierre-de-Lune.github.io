@@ -8,28 +8,22 @@ menu-order: 3
 
 ### Soutien financier ###
 
-Le choeur finance ses activités grâce aux cotisations de ses membres, aux dons des amis,
-à la collecte à la sortie des concerts, et à des soutiens ponctuels d'organismes et 
-fondations culturels, mais ne bénéficie d'aucun soutien institutionnel récurrent.
+L'Ensemble Vocal Pierre de Lune ne vit que des cotisations de ses choristes
+et de ses amis ainsi que de soutiens ponctuels au gré des concerts.
 
-Vous pouvez nous soutenir :
+Si vous souhaitez soutenir l'Ensemble Vocal dans ses activités, il est
+possible de devenir membre de l'association "Les Amis de l'Ensemble Vocal Pierre de Lune"
+ou de nous offrir un soutien.
 
-- Par un don spontané au CCP-17-191089-4 pour « Les Amis de l'Ensemble vocal Pierre de Lune »
+Nous vous remercions chaleureusement par avance.
 
-- En devenant Membre associé des Amis de de l'Ensemble vocal Pierre de Lune, cotisation minimal annuelle CHF 50
+Les Amis de l'Ensemble Vocal Pierre de Lune    
+CH-1225 Chêne-Bourg    
+CCP 17-191089-4    
+[Contacts](/index.html#collapseContact)
 
-- En nous sponsorisant par un soutien financier plus important de Membre bienfaiteur :
-
-    Soit avec un don annuel librement consenti,
-
-    soit avec un don unique à votre convenance. Ce dernier étant au minimum de CHF 500
-
-- Par une annonce dans nos programmes de concert :
-
-    Carte de visite simple CHF 75 / Quart de page CHF 100 / Demi-page CHF 200 / Pleine page CHF 400  
-  
 ### Soutien publicitaire ###
 
-Vous pouvez faire la promotion de l'Ensemble vocal en utilisant notre bannière :
+Vous pouvez faire la promotion de l'Ensemble Vocal en utilisant notre bannière :
 
 ![Banniere Pierre de Lune](/images/banniere.jpg)
