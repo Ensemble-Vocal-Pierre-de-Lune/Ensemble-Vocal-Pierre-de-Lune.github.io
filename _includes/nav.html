@@ -1,6 +1,8 @@
 <div class="col-sm-3">
   <nav>
     {% if active-url %}
+    {% elsif page.active-url %}
+      {% assign active-url = page.active-url %}
     {% else %}
       {% assign active-url = page.url %}
     {% endif %}
