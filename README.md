@@ -24,6 +24,6 @@ est rangé automatiquement dans la bonne liste en fonction de sa date.
 
 ## Instructions ##
 
-Toutes les instructions sont dans le [wiki du projet](bitbucket.org/evpdl/pdlweb/wiki/).
+Toutes les instructions sont dans le wiki du projet (lien "wiki" dans le menu de navigation).
 Pour les consulter, il faut créer un compte sur BitBucket et se faire ajouter au projet.
 (Si vous lisez ceci, c'est vraisemblablement que cela est déjà le cas.)
