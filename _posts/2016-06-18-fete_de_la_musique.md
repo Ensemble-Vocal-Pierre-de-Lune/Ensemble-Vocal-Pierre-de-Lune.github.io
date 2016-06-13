@@ -1,9 +1,10 @@
 ---
-layout: concert
+layout: affiche-img
 title:  "Fête de la Musique - Missa dei Filii de Zelenka"
 date:   2016-06-18 19:30
 categories: concert
 lieu: Cathédrale St-Pierre de Genève
+affiche: 2016-06-18-fete_de_la_musique.jpg
 ---
 
 ## La Fête de la Musique à la Cathédrale
