@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+<div class="container-fluid">
+  <div class="col-sm-3">
+    <nav>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="/choristes">Page choristes</a></li>
+        <li><a href="/">Retour au site public</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="tab-content col-sm-9">
+    {% include logo.html %}
+    <div class="tab-pane text-style active">
+      {{ content }}
+    </div>
+  </div>
+</div>
+{% include js-includes.html %}
+</body>
+</html>
