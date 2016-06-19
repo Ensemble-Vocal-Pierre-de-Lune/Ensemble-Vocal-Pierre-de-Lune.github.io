@@ -1,5 +1,6 @@
-{{ include.date | date: '%d' }} {% assign m = include.date | date: "%-m" %}
-{% case m %}
+{{ include.date | date: '%d' }}
+{% assign month = include.date | date: "%-m" %}
+{% case month %}
   {% when '1' %}janv.
   {% when '2' %}févr.
   {% when '3' %}mars
@@ -14,4 +15,9 @@
   {% when '12' %}déc.
 {% endcase %}
 {{ include.date | date: '%Y' }}
+{% assign h = include.date | date: "%H" %}
+{% assign min = include.date | date: "%M" %}
+{% if h != "00" and m != "00" %}
 à {{ include.date | date: '%H' }}h{{ include.date | date: '%M' }}
+{% else %}
+{% endif %}
