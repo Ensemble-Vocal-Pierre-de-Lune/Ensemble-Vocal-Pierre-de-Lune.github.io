@@ -5,7 +5,6 @@ date:   2016-10-01
 categories: concert
 lieu: St-Julien et environs
 ---
-## Echange avec l'orchestre de chambre de Mössingen (DE) ##
 
 Pendant le weekend du 1er et 2 octobre, l'orchestre nous rejoint
 pour des concerts à St-Julien et alentours, dans le cadre du
