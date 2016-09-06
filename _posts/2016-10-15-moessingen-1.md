@@ -1,9 +1,9 @@
 ---
 layout: concert
 title:  "Concert avec l'orchestre de chambre de Mössingen (Allemagne)"
-date:   2016-10-01 19:00
+date:   2016-10-15 19:30
 categories: concert
-lieu: Eglise de St-Julien
+lieu: Eglise de Mössingen (Allemagne)
 ---
 
 ## Programme
@@ -28,10 +28,10 @@ lieu: Eglise de St-Julien
 </dl>
 
 
-Eva Fiechter, Soprano  
+Francisca Osorio-Doren, Soprano  
 Catherine Pillonel Bacchetta, Alto  
-Vincent Laloy, Ténor  
+Fernando Cuellar, Ténor  
 Fabrice Raviola, Basse
 
-Dietrich Schöller-Manno et Emmanuel Junod, Direction
+Dietrich Schöller-Manno, Direction
 

@@ -1,12 +1,13 @@
 ---
 layout: concert
 title:  "Concert avec l'orchestre de chambre de Mössingen (Allemagne)"
-date:   2016-10-01 19:00
+date:   2016-10-02 17:00
 categories: concert
-lieu: Eglise de St-Julien
+lieu: Eglise d'Archamps
 ---
 
 ## Programme
+(Programme identique au samedi 1er octobre.)
 
 <dl>
     <dt>Antonín Dvořák (1841-1904)</dt>
