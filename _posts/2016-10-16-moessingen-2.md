@@ -3,7 +3,7 @@ layout: concert
 title:  "Concert avec l'orchestre de chambre de Mössingen (Allemagne)"
 date:   2016-10-16 17:00
 categories: concert
-lieu: lieu à définir, près de Mössingen (Allemagne)
+lieu: Schlosskirche, Haigerloch (Allemagne)
 ---
 
 ## Programme
