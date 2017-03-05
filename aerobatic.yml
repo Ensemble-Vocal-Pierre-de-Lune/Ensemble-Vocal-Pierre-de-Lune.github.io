@@ -1,9 +1,9 @@
 # Aerobatic website manifest
 id: 048afee1-62f8-47bf-a728-f1895aaeee15
 plugins:
-  - path: /choristes
-    options:
-      username: $CHORISTE_USERNAME
-      failedLoginPeriod: 120
-      password: $CHORISTE_PASSWORD
-    name: basic-auth
+ - path: /choristes
+   name: basic-auth
+   options:
+     username: $CHORISTE_USERNAME
+     password: $CHORISTE_PASSWORD
+     failedLoginPeriod: 120
