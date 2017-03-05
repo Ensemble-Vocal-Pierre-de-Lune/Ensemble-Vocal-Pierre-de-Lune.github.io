@@ -12,4 +12,4 @@ pipelines:
             - '[ -f Gemfile ] && bundle install'
             - 'echo "url: https://__baseurl__" >> _config.yml'
             - bundle exec jekyll build
-            - aero deploy --directory _site --stage pipelines-test
+            - aero deploy --directory _site
