@@ -12,10 +12,10 @@ menu-order: 1
     <tbody>
     <tr>
       <td class="col-md-2"><a href="{{ concert.url }}">{% include date-time.liquid date=concert.date %}</a></td>
-      <td class="col-md-4"><a href="{{ concert.url }}">{{ concert.lieu}}</a></td>
-      <td class="col-md-3"><a href="{{ concert.url }}">{{ concert.title }}</a></td>
+      <td class="col-md-3"><a href="{{ concert.url }}">{{ concert.lieu}}</a></td>
+      <td class="col-md-4"><a href="{{ concert.url }}">{{ concert.title }}</a></td>
     </tr>
-    </tbody>
+    </tbody
   {% endif %}
   {% endfor %}
 </table>
