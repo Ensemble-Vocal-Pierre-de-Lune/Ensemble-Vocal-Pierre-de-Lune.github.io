@@ -26,7 +26,7 @@ Piano: Orgel-Choralvorspiele, &ldquo;Nun komm der Heiden Heiland&rdquo; BWV 659 
 **Joseph Rheinberger**  
 Abendlied, Op. 69, No. 3 (1855)							
 
-**Max Reger:**
+**Max Reger:**  
 Nachtlied op 138/3 (1914)
 Abendlied op 6/3 (1892) (choeur-piano)
 
