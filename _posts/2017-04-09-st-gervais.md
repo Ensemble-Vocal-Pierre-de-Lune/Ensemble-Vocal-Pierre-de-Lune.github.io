@@ -6,6 +6,8 @@ categories: concert
 lieu: Temple de St-Gervais
 ---
 
+<img src="/affiches/2017-04-09_st-gervais.jpg" class="img-responsive" style="width: 100%" />
+
 <hr style="border-top: 3px double #8c8b8b"/>
 
 **Francesco Durante (1684-1755)**  
@@ -40,3 +42,4 @@ Emmanuel Junod, direction
 <p style="text-align: center">
 <i>entrée libre - collecte</i>
 </p>
+
