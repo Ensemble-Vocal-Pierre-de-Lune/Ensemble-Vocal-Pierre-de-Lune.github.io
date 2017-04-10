@@ -3,7 +3,7 @@ layout: concert
 title: "&ldquo;Les Riches Heures&rdquo; du Festival Agap&eacute;"
 date: 2017-05-28 14:00
 categories: concert
-lieu: Temple de la Madeleine
+lieu: Temple de la Madeleine, rue de Toutes-&Acirc;mes
 ---
 
 <hr style="border-top: 3px double #8c8b8b"/>
@@ -14,10 +14,10 @@ En collaboration avec l’Ensemble &ldquo;Chiome d’Oro&rdquo; et Frédéric Ta
 <hr style="border-top: 3px double #8c8b8b"/>
 
 **Brahms**
-O Heiland reiß die Himmel auf  Op. 74/2 (1863–64)					
+O Heiland reiß die Himmel auf, Op. 74/2 (1863–64)					
 
 **Pergolèse** 
-Confitebor tibi domine: 1(Confitebor) et 2(Confessio): 				
+Confitebor tibi domine: 1 (Confitebor) et 2 (Confessio) 				
 
 **Bruckner**										
 Virga Jesse
