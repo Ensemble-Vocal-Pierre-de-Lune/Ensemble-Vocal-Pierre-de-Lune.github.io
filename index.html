@@ -5,9 +5,13 @@ menu-order: 0
 ---
 <hr style="border-top: 3px double #8c8b8b"/>
 <p style="text-align: center">
-  Prochain concert : 
-  <a href="/concert/2017/05/28/agape-madeleine">&ldquo;Les Riches Heures&rdquo; du Festival Agapé</a>, 
-  Temple de la Madeleine, 14h dimanche 28 mai
+  {% comment %} Get the last concert that is in the future (looping in reverse chronological order) {% endcomment %}
+  {% for concert in site.posts %}
+    {% if site.time <= concert.date %}
+      {% assign nextConcert = concert %}
+    {% endif %}
+  {% endfor %}
+  Prochain concert : <a href="{{nextConcert.url}}">{{nextConcert.title}}</a>, {{nextConcert.lieu}}, {% include date-time.liquid date=nextConcert.date %}
 </p>
 <hr style="border-top: 3px double #8c8b8b"/>
 
