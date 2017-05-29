@@ -1,6 +1,6 @@
 ---
 layout: concert
-title: "F&ecirc;te de la Musique de Gen&egrave;ve"
+title: "F&ecirc;te de la Musique"
 date: 2017-06-24 22:30
 categories: concert
 lieu: Auditoire de Calvin
