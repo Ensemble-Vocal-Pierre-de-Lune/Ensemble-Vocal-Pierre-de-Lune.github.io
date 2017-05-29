@@ -1,3 +1,13 @@
+{% assign dayOfWeek = include.date | date: "%u" %}
+{% case dayOfWeek %}
+  {% when '1' %}lundi
+  {% when '2' %}mardi
+  {% when '3' %}mercredi
+  {% when '4' %}jeudi
+  {% when '5' %}vendredi
+  {% when '6' %}samedi
+  {% when '7' %}dimanche
+{% endcase %}
 {{ include.date | date: '%d' }}
 {% assign month = include.date | date: "%-m" %}
 {% case month %}
