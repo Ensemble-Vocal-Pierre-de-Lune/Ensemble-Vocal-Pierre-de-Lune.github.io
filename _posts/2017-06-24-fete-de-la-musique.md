@@ -1,9 +1,10 @@
 ---
-layout: concert
+layout: affiche-pdf
 title: "F&ecirc;te de la Musique"
 date: 2017-06-24 22:30
 categories: concert
-lieu: Auditoire de Calvin
+lieu: Auditoire Calvin
+affiche: 2017-06-24_fete_de_la_musique.pdf
 ---
 
 <hr style="border-top: 3px double #8c8b8b"/>
