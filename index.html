@@ -11,7 +11,7 @@ menu-order: 0
       {% assign nextConcert = concert %}
     {% endif %}
   {% endfor %}
-  Prochain concert : <a href="{{nextConcert.url}}">{{nextConcert.title}}</a>, {{nextConcert.lieu}}, {% include date-time.liquid date=nextConcert.date %}
+  Prochain concert : <a href="{{nextConcert.url}}">{{nextConcert.title}}</a><!-- , {{nextConcert.lieu}} -->,<br/> {% include date-time.liquid date=nextConcert.date %}
 </p>
 <hr style="border-top: 3px double #8c8b8b"/>
 
