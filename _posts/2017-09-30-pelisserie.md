@@ -3,7 +3,7 @@ layout: concert
 title: "Concert à l'occasion du 200e anniversaire de la chapelle de la Pélisserie"
 date: 2017-09-30 20:00
 categories: concert
-lieu: Chapelle de la Pélisserie
+lieu: Chapelle de la Pélisserie, 20 rue de la Pélisserie (Vieille-Ville)
 ---
 
 <hr style="border-top: 3px double #8c8b8b"/>
