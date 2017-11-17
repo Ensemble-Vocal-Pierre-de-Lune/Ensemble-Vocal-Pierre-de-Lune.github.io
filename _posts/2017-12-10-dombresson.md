@@ -1,7 +1,7 @@
 ---
 layout: concert
 title: "Concert au temple de Dombresson"
-date: 2017-12-13 17:00
+date: 2017-12-10 17:00
 categories: concert
 lieu: Temple de Dombresson (NE)
 ---
