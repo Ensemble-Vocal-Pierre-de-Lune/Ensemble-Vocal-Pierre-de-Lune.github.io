@@ -8,7 +8,7 @@
   {% when '6' %}samedi
   {% when '7' %}dimanche
 {% endcase %}
-{{ include.date | date: '%d' }}
+{{ include.date | date: '%e' }}
 {% assign month = include.date | date: "%-m" %}
 {% case month %}
   {% when '1' %}janv.
