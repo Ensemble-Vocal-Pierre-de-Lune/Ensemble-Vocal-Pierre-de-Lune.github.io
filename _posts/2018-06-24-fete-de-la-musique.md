@@ -1,7 +1,7 @@
 ---
 layout: concert
 title: "Rossini: Petite Messe Solennelle"
-date: 2018-06-24 16:20
+date: 2018-06-24 16:30
 categories: concert
 lieu: Genève
 ---
