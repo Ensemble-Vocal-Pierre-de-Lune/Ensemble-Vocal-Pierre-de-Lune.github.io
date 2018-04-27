@@ -1,9 +1,9 @@
 ---
 layout: concert
 title: "Magnificat de J.-S. Bach"
-date: 2018-12-14 
+date: 2018-12-14 20:00
 categories: concert
-lieu: Eglise Saint-Germain, Vieille-Ville
+lieu: Temple de Saint-Gervais, rue Terreaux-du-Temple
 ---
 
 Dans le cadre du <a href="http://www.festivalgandini.org">festival de rénovation de l'orgue Gandini :</a>
@@ -21,4 +21,3 @@ Chants de Noël traditionnels
 Direction : Emmanuel Junod
 </p>
 
-L'heure du concert sera annoncé ultérieurement.

@@ -3,7 +3,7 @@ layout: concert
 title: "Rossini: Petite Messe Solennelle"
 date: 2018-06-24 16:30
 categories: concert
-lieu: Genève
+lieu: Temple de la Madeleine
 ---
 
 <hr style="border-top: 3px double #8c8b8b"/>
