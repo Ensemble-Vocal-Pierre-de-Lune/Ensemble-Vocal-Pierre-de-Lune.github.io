@@ -20,6 +20,7 @@ Nous vous remercions chaleureusement par avance.
 Les Amis de l'Ensemble Vocal Pierre de Lune    
 CH-1225 Chêne-Bourg    
 CCP 17-191089-4    
+IBAN CH66 0900 0000 1719 1089 4  
 [Contacts](/index.html#collapseContact)
 
 ### Soutien publicitaire ###
