@@ -10,9 +10,18 @@
   {% endif %}
   {% include nav.html %}
   <div class="tab-content col-sm-9">
-    <object height="770" width="500" data="/affiches/{{ page.affiche }}" type="application/pdf">
-      <a href="/affiches/{{ page.affiche }}">Voir l'affiche en PDF</a>
-    </object>
+    {% include logo.html %}
+	<object height="770" width="500" data="{{baseurl}}/affiches/{{ page.affiche }}" type="application/pdf">
+		<div class="tab-pane text-style active">
+		  <h1>{{ page.title}} </h1>
+		  {{ content }}
+		  <hr style="border-top: 3px double #8c8b8b"/>
+		  <p>
+			<a href="/affiches/{{ page.affiche }}">Cliquer pour télécharger l'affiche au format PDF</a>
+			et ouvrir dans un autre logiciel.
+		  </p>
+		</div>
+	</object>
   </div>
 </div>
 {% include js-includes.html %}
