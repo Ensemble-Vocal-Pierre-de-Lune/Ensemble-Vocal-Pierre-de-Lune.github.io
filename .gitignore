@@ -4,3 +4,4 @@ _site
 images/Thumbs.db
 *.iml
 affiches/Thumbs.db
+Gemfile.lock
