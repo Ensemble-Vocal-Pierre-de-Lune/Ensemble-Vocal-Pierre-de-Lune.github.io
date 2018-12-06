@@ -1,8 +1,9 @@
 ---
-layout: concert
+layout: affiche-pdf
 title: "Concert de Noël : Magnificat de J.-S. Bach"
 date: 2018-12-14 20:00
 categories: concert
+affiche: 2018-12-14-magnificat-bach-st-gervais.pdf
 lieu: Temple de Saint-Gervais, rue Terreaux-du-Temple
 ---
 
