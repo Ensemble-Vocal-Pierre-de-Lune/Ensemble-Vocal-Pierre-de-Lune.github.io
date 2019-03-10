@@ -10,7 +10,7 @@ Chants traditionnels de Noël
 
 **Franz Schubert**  
 Magnificat D486  
-Messe
+Messe en do D452
 
 <hr style="border-top: 3px double #8c8b8b"/>
 
