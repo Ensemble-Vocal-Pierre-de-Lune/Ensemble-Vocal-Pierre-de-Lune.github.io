@@ -8,6 +8,7 @@ lieu: Temple de Vandœuvres
 
 **W. A. Mozart**  
 Misericordias Domini K222
+Inter natos mulierum K72
 
 **Benedetto Marcello**  
 Psaume 18 "Caeli enarrant" (extraits)
