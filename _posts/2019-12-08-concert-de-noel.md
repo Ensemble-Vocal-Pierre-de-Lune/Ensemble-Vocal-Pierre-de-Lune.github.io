@@ -1,7 +1,7 @@
 ---
 layout: concert
 title: "Concert de Noël"
-date: 2019-12-08 20:00
+date: 2019-12-08 17:00
 categories: concert
 lieu: Saint-Gervais (Genève)
 ---
