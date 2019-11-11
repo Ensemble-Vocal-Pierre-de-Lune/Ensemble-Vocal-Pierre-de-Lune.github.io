@@ -1,9 +1,10 @@
 ---
-layout: concert
+layout: affiche-pdf
 title: "Concert de Noël"
 date: 2019-12-08 17:00
 categories: concert
 lieu: Saint-Gervais (Genève)
+affiche: 2019-12-08-concert-de-noel-schubert.pdf
 ---
 
 Chants traditionnels de Noël  
