@@ -5,6 +5,11 @@ menu-order: 0
 ---
 <hr style="border-top: 3px double #8c8b8b"/>
 <p style="text-align: center">
+  {% comment %} Annonce temporaire Covid {% endcomment %}
+  Tous les concerts en 2020 sont annulés.<br/>
+  Le planning des prochains concerts reste prévisionnel, en fonction des conditions sanitaires.<br/>
+</p>
+<p style="text-align: center">
   {% comment %} Get the last concert that is in the future (looping in reverse chronological order) {% endcomment %}
   {% for concert in site.posts %}
     {% if site.time <= concert.date %}
