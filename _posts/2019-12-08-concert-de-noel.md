@@ -1,6 +1,6 @@
 ---
 layout: affiche-pdf
-title: "Concert de Noël"
+title: "Concert de Noël : Magnificat et Messe de Schubert"
 date: 2019-12-08 17:00
 categories: concert
 lieu: Saint-Gervais (Genève)
