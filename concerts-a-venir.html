@@ -6,7 +6,7 @@ menu-order: 1
 <h2>{{ page.title }}</h2>
 et autres manifestations
 <div class="table-responsive">
-{% for concert in site.posts %}
+{% for concert in site.posts reversed %}
   {% comment %} Show only past concerts, with custom date format {% endcomment %}
   {% if site.time <= concert.date %}
     {% assign currentdate = concert.date | date: "%Y" %}
