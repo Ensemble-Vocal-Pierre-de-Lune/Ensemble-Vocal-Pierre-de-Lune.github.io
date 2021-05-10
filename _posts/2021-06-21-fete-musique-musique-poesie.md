@@ -1,6 +1,6 @@
 ---
 layout: concert
-title: "Musique et poésie"
+title: "ANNULE - Musique et poésie"
 date: 2021-06-21
 categories: concert
 lieu: Genève, Fête de la musique (date et lieu à préciser)

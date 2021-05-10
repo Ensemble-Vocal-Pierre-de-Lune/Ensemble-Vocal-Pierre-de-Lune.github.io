@@ -1,7 +1,7 @@
 ---
 layout: concert
 title: "Concert de Noël 2021"
-date: 2021-12-05
+date: 2021-12-05 17:00
 categories: concert
 lieu: Temple de Saint-Gervais (Genève)
 ---

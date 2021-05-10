@@ -1,6 +1,6 @@
 ---
 layout: concert
-title: "Œuvres pour chœur et quatuor avec piano"
+title: "ANNULE - Œuvres pour chœur et quatuor avec piano"
 date: 2021-03-06
 categories: concert
 lieu: Salle Frank Martin (Genève)

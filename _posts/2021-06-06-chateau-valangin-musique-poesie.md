@@ -1,6 +1,6 @@
 ---
 layout: concert
-title: "Musique et poésie"
+title: "ANNULE - Musique et poésie"
 date: 2021-06-06
 categories: concert
 lieu: Château de Valangin (canton de Neuchâtel)
