@@ -12,18 +12,24 @@ et autres manifestations
     {% assign currentdate = concert.date | date: "%Y" %}
     {% if currentdate != date %}
       {% unless forloop.first %}</table>{% endunless %}
-      <h2 id="y{{concert.date | date: "%Y"}}">{{ currentdate }}</h2>
-      <table class="table table-condensed">
-        <tbody>
+  <h2 id="y{{concert.date | date: "%Y"}}">{{ currentdate }}</h2>
+  <table class="table table-condensed">
+    <tbody>
       {% assign date = currentdate %}
     {% endif %}
-    <tr>
-      <td class="col-md-2"><a href="{{ concert.url }}">{% include date.liquid date=concert.date %}</a></td>
-      <td class="col-md-4"><a href="{{ concert.url }}">{{ concert.lieu}}</a></td>
-      <td class="col-md-3"><a href="{{ concert.url }}">{{ concert.title }}</a></td>
-    </tr>
-    </tbody>
+      <tr>
+        <td class="col-md-2"><a href="{{ concert.url }}">{% include date.liquid date=concert.date %}</a></td>
+        <td class="col-md-4"><a href="{{ concert.url }}">{{ concert.lieu}}</a></td>
+        <td class="col-md-3"><a href="{{ concert.url }}">{{ concert.title }}</a></td>
+      </tr>
   {% endif %}
 {% endfor %}
+    {% comment %} Dernière ligne ajoutée manuellement pour le projet Chostakovitch {% endcomment %}
+    <tr>
+      <td class="col-md-2"><a href="projet-chostakovitch.pdf">juin 2022</a></td>
+      <td class="col-md-3"><i><a href="projet-chostakovitch.pdf">(lieu à annoncer ultérieurement)</a></i></td>
+      <td class="col-md-4"><a href="projet-chostakovitch.pdf">PROJET : Concert Chostakovitch</a></td>
+    </tr>
+  </tbody>
 </table>
 </div>
