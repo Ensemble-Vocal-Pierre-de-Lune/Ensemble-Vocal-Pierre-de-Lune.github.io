@@ -12,9 +12,8 @@ au site tel qu'on le met en ligne, ces sources sont transformés par [Jekyll](je
 - Certains éléments comme le menu de navigation et le logo sont insérés dans 
   chaque page (pour ne pas avoir à les dupliquer dans chaque page)
 
-A chaque fois qu'un changement des sources est poussé dans Bitbucket (c'est-à-dire ici),
-le plugin Aerobatic lance la transformation par Jekyll et déploie automatiquement le
-résultat sur le site publique.
+Lors d'une mise à jour, le site doit être généré puis le résultat, dans le répertoire
+_site, doit être copié manuellement par ftp sur l'hébergement web.
 
 Le site est _static_ : quand un utilisateur consulte une page, le serveur qui rend la page
 n'exécute aucune logique pour intercaler ou ajuster l'information affichée, la page est
