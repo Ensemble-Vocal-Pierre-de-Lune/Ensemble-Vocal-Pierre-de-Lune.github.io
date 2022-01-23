@@ -1,6 +1,6 @@
 ---
 layout: concert
-title: "Concert de Noël 2021"
+title: "Concert de Noël, Messa per il Santissimo Natale de G.A. Ristori, 1744"
 date: 2021-12-05 17:00
 categories: concert
 lieu: Temple de Saint-Gervais (Genève)
