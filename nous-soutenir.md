@@ -11,9 +11,9 @@ menu-order: 3
 L'Ensemble Vocal Pierre de Lune ne vit que des cotisations de ses choristes
 et de ses amis ainsi que de soutiens ponctuels au gré des concerts.
 
-Si vous souhaitez soutenir l'Ensemble Vocal dans ses activités, il est
-possible de devenir membre de l'association "Les Amis de l'Ensemble Vocal Pierre de Lune"
-ou de nous offrir un soutien.
+Si vous souhaitez soutenir l'Ensemble Vocal dans ses activités, vous pouvez devenir membre 
+de l'association "Les Amis de l'Ensemble Vocal Pierre de Lune" ou nous verser une
+contribution financière qui sera très appréciée.
 
 Nous vous remercions chaleureusement par avance.
 
