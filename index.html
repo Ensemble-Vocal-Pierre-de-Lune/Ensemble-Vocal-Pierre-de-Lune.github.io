@@ -5,13 +5,6 @@ menu-order: 0
 ---
 <hr style="border-top: 3px double #8c8b8b"/>
 <p style="text-align: center">
-  {% comment %} Annonce temporaire Covid {% endcomment %}
-  Les concerts du 6 mars et du 6 juin 2021 ont été annulés, ainsi que notre participation à la Fête de la Musique 2021,
-  et tous les concerts en 2020.<br/>
-  Le planning des prochains concerts reste prévisionnel, en fonction des conditions sanitaires.<br/>
-  <a href="{% post_url 2021-12-05-concert-de-noel %}">Le concert de Noël</a> est agendé au dimanche 5 décembre 2021.
-</p>
-<p style="text-align: center">
   {% comment %} Get the last concert that is in the future (looping in reverse chronological order) {% endcomment %}
   {% for concert in site.posts %}
     {% if site.time <= concert.date %}
