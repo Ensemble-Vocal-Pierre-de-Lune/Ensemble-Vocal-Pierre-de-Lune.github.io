@@ -3,7 +3,7 @@ layout: concert
 title: "Poésie et Musique"
 date: 2022-06-12 17:00
 categories: concert
-lieu: Château de Valangin (canton de Neuchâtel)
+lieu: Château de Valangin (NE)
 ---
 
 ### Poèmes : F. Carrillo
@@ -61,3 +61,11 @@ PIANO J. Brahms - Intermezzo, Op. 118, No. 2
 PIANO R. Schumann - Waldszenen Op.82, 9. Abschied
 
 S. Barber - Sure on this shining night (Texte de James Agee, extrait de Permit Me Voyage)
+
+  <div class="tab-content col-sm-9">
+    <img class="img-responsive"
+         src="/affiches/2022-06-11_poesie_et_musique.jpg"
+         alt="Image de l'affiche du concert {{ page.title }}"
+    />
+  </div>
+
