@@ -5,3 +5,4 @@ images/Thumbs.db
 *.iml
 affiches/Thumbs.db
 Gemfile.lock
+.jekyll-cache
