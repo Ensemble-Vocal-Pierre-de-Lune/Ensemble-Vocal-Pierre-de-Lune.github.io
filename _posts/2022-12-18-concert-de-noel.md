@@ -1,7 +1,7 @@
 ---
 layout: concert
 title: "Concert de Noël, Bach"
-date: 2022-12-19 17:00
+date: 2022-12-18 17:00
 categories: concert
 lieu: Temple de Saint-Gervais (Genève)
 ---
