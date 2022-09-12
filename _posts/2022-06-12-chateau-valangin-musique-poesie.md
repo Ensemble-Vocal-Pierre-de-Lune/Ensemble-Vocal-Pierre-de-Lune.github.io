@@ -1,6 +1,6 @@
 ---
 layout: concert
-title: "Poésie et Musique"
+title: "Musique et Poésie"
 date: 2022-06-12 17:00
 categories: concert
 lieu: Château de Valangin (NE)

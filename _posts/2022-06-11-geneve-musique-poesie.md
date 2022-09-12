@@ -1,6 +1,6 @@
 ---
 layout: concert
-title: "Poésie et Musique"
+title: "Musique et Poésie"
 date: 2022-06-11
 categories: concert
 lieu: Bernex, salle paroissiale
