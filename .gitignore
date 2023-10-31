@@ -6,3 +6,4 @@ images/Thumbs.db
 affiches/Thumbs.db
 Gemfile.lock
 .jekyll-cache
+/vendor
