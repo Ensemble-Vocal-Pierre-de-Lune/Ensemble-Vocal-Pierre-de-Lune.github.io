@@ -26,3 +26,10 @@ est rangé automatiquement dans la bonne liste en fonction de sa date.
 Toutes les instructions sont dans le wiki du projet (lien "wiki" dans le menu de navigation).
 Pour les consulter, il faut créer un compte sur BitBucket et se faire ajouter au projet.
 (Si vous lisez ceci, c'est vraisemblablement que cela est déjà le cas.)
+
+## Running with Docker ##
+docker run --rm -it \
+  --volume="$PWD:/srv/jekyll" \
+  --volume="$PWD/vendor/bundle:/usr/local/bundle" \
+  -p 4000:4000 jekyll/jekyll:latest \
+  jekyll serve
