@@ -8,7 +8,6 @@ Contenu &copy; Ensemble Vocal Pierre de Lune 2005-{{ site.time | date: '%Y' }}
 
 - **Conception et réalisation** : Andrew Spencer
 - **Identité visuelle** : Laurence Cavin
-- **Hébergement du site** : [Aerobatic](http://www.aerobatic.com/) (gratuitement ! Un grand merci à eux)
-- **Hébergement de code source** : [Bitbucket](http://www.bitbucket.com/) (gratuitement aussi)
+- **Hébergement du site** : [Github](http://www.github.com/)
 - **Socle technique** : [Bootstrap](http://getbootstrap.com), [Jekyll](http://jekyllrb.com/)
 
