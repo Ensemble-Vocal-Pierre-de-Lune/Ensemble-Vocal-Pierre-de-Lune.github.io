@@ -11,7 +11,7 @@ lieu: Cathédrale de Genève
 W A Mozart
 
 Participation au culte de la cathédrale, avec les litanies
-à la Sainte Vierge,_Litaniae Lauretaniae_ de Mozart, K. 195
+à la Sainte Vierge, _Litaniae Lauretaniae_ de Mozart, K. 195
 
 <hr style="border-top: 3px double #8c8b8b"/>
 

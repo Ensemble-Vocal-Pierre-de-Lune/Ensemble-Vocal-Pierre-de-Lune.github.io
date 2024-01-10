@@ -1,21 +1,35 @@
 ---
 layout: concert
-title: "Mozart à la Madeleine"
+title: "Concert 100% Mozart"
 date: 2024-02-11 17:00
 categories: concert
-lieu: Eglise de la Madeleine, Vieille-Ville
+lieu: Temple de la Madeleine, Vieille-Ville
 ---
 
-<hr style="border-top: 3px double #8c8b8b"/>
 
-W A Mozart
+- Sinfonia Concertante, K. 364
 
-- Concerto pour violon en la, numéro 5, K. 219
-- _Litaniae Lauretaniae_ B.M.V., K. 195 
+<p style="text-align: center">
+Ensemble Instrumental Romand<br/>
+Abdel-Hamid El Shwekh, violon<br/>
+Sindy Mohamed, alto
+</p>
+
+<hr style="border-top: 3px double #8c8b8b#"/>
+
+- _Litaniae Lauretaniae_ (Litanies de la Sainte Vierge) K. 195 
+
+<p style="text-align: center">
+Ensemble Vocal Pierre de Lune
+Ensemble Instrumental Romand<br/>
+Clémence Tilquin, soprano<br/>
+Alina Delgadillo, alto<br/>
+Valerio Contaldo, ténor<br/>
+Thibault Gérentet, basse
+</p>
 
 <hr style="border-top: 3px double #8c8b8b"/>
 
 <p style="text-align: center">
-Ensemble Instrumental Romand<br/>
 Direction : Emmanuel Junod
 </p>
