@@ -20,7 +20,7 @@ Sindy Mohamed, alto
 - _Litaniae Lauretaniae_ (Litanies de la Sainte Vierge) K. 195 
 
 <p style="text-align: center">
-Ensemble Vocal Pierre de Lune
+Ensemble Vocal Pierre de Lune<br/>
 Ensemble Instrumental Romand<br/>
 Clémence Tilquin, soprano<br/>
 Alina Delgadillo, alto<br/>
