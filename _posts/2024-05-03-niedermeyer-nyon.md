@@ -9,7 +9,7 @@ lieu: Eglise de la Colombière, Nyon
 <hr style="border-top: 3px double #8c8b8b"/>
 
 <img src="/images/2024-05-03-niedermeyer.jpg" alt="Photo d'un buste en bronze de Louis Niedermeyer" 
-  class="img-responsive" style="width: 30%"/>
+  class="img-responsive" style="width: 30%; align=middle"/>
 
 Concert en collaboration avec l'association Niedermeyer de Nyon.
 
