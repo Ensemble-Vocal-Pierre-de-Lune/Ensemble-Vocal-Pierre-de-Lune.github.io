@@ -8,10 +8,12 @@ lieu: Eglise de la Colombière, Nyon
 
 <hr style="border-top: 3px double #8c8b8b"/>
 
-<img src="https://www.niedermeyer-nyon.ch/wp-content/uploads/2015/10/image-HeaderLNSmall.jpg" alt="Photo d'un buste en bronze de Louis Niedermeyer" 
+<img src="https://www.niedermeyer-nyon.ch/wp-content/uploads/2015/10/image-HeaderLNSmall.jpg" alt="Photo d'un buste 
+en bronze de Louis Niedermeyer" 
   class="img-responsive" style="align=middle"/>
 
-Le compositeur nyonnais <a href="https://en.wikipedia.org/wiki/Louis_Niedermeyer">Louis Niedermeyer</a> (1802-1861) s'est fait un nom à Paris en tant que compositeur d'opéra, avant de se
+Le compositeur nyonnais <a href="https://en.wikipedia.org/wiki/Louis_Niedermeyer">Louis Niedermeyer</a> (1802-1861) 
+s'est fait un nom à Paris en tant que compositeur d'opéra, avant de se
 tourner vers la musique sacrée.
 
 En collaboration avec <a href="https://www.niedermeyer-nyon.ch/">l'association Niedermeyer</a> de Nyon, nous vous
@@ -19,6 +21,9 @@ proposerons huit motets sacrés ainsi qu'une pièce pour orgue, trop méconnus, 
 sacrées d'autres compositeurs de son époque dont certains qu'il a connus ou influencés : 
 Rossini, Rheinberger,
 Léon Boëllmann, Saint-Saëns, Fauré.
+
+Voir le <a href="/affiches/2024-05-03_Nyon_Niedermeyer_programme.pdf">programme</a> (PDF) pour de plus amples
+informations!
 
 <hr style="border-top: 3px double #8c8b8b"/>
 
