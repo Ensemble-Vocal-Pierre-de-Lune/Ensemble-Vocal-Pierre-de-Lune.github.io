@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: Nous soutenir
 menu-order: 3
@@ -22,6 +22,12 @@ CH-1225 Chêne-Bourg
 CCP 17-191089-4    
 IBAN CH66 0900 0000 1719 1089 4  
 [Contacts](/index.html#collapseContact)
+
+### Bons culture ###
+
+Si vous faites vos achats dans la chaîne de magasins suisses dont le nom commence par "M"
+et se termine par "gros", vous pouvez collectionner et nous attribuer leurs bons culture :
+<a href="https://supportculture.migros.ch/fr/associations/association-des-amis-de-lensemble-vocal-pierre-de-lune/">c'est ici</a>.
 
 ### Soutien publicitaire ###
 
