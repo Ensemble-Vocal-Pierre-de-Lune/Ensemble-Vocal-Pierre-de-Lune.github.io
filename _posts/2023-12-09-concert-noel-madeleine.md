@@ -3,7 +3,7 @@ layout: concert
 title: "Concert de Noël 2023"
 date: 2023-12-09 20:00
 categories: concert
-lieu: Eglise de la Madeleine, Vieille-Ville
+lieu: Temple de la Madeleine, Vieille-Ville
 ---
 
 
