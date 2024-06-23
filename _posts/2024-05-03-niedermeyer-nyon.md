@@ -8,7 +8,7 @@ lieu: Eglise de la Colombière, Nyon
 
 <hr style="border-top: 3px double #8c8b8b"/>
 
-<img src="https://www.niedermeyer-nyon.ch/wp-content/uploads/2015/10/image-HeaderLNSmall.jpg" alt="Photo d'un buste 
+<img src="/images/2024-05-03-niedermeyer.jpg" alt="Photo d'un buste 
 en bronze de Louis Niedermeyer" 
   class="img-responsive" style="align=middle"/>
 

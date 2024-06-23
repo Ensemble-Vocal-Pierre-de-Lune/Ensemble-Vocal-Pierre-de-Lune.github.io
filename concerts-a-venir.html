@@ -7,7 +7,7 @@ menu-order: 1
 et autres manifestations
 <div class="table-responsive">
 {% for concert in site.posts reversed %}
-  {% comment %} Show only past concerts, with custom date format {% endcomment %}
+  {% comment %} Show only future concerts, with custom date format {% endcomment %}
   {% if site.time <= concert.date %}
     {% assign currentdate = concert.date | date: "%Y" %}
     {% if currentdate != date %}
@@ -18,12 +18,13 @@ et autres manifestations
       {% assign date = currentdate %}
     {% endif %}
       <tr>
-        <td class="col-md-2"><a href="{{ concert.url }}">{% include date.liquid date=concert.date %}</a></td>
-        <td class="col-md-4"><a href="{{ concert.url }}">{{ concert.lieu}}</a></td>
-        <td class="col-md-3"><a href="{{ concert.url }}">{{ concert.title }}</a></td>
+        <td class="col-md-1"><a href="{{ concert.url }}">{% include date.liquid date=concert.date %}</a></td>
+        <td class="col-md-3"><a href="{{ concert.url }}">{{ concert.lieu}}</a></td>
+        <td class="col-md-4"><a href="{{ concert.url }}">{{ concert.title }}</a></td>
+        <td class="col-md-1">bla</td>
       </tr>
+    </tbody>
   {% endif %}
 {% endfor %}
-  </tbody>
 </table>
 </div>

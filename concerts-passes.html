@@ -5,22 +5,30 @@ menu-order: 2
 ---
 <h2>{{ page.title }}</h2>
 et autres manifestations
+
+{% comment %}Define an array listing all the affiches, we'll use this below to link to the matching affiche{% endcomment %}
+{% assign affiches = site.static_files | where_exp:"affiche", "affiche.path contains 'affiches/'" %}
+
 <div class="table-responsive">
 {% for concert in site.posts %}
   {% comment %} Show only past concerts, with custom date format {% endcomment %}
   {% if site.time > concert.date %}
-    {% assign currentdate = concert.date | date: "%Y" %}
-    {% if currentdate != date %}
+    {% assign currentyear = concert.date | date: "%Y" %}
+    {% if currentyear != date %}
       {% unless forloop.first %}</table>{% endunless %}
-      <h2 id="y{{concert.date | date: "%Y"}}">{{ currentdate }}</h2>
+      {% comment %} break up into a separate table for each year {% endcomment %}
+      <h2 id="y{{concert.date | date: "%Y"}}">{{ currentyear }}</h2>
       <table class="table table-condensed">
         <tbody>
-      {% assign date = currentdate %}
+      {% assign date = currentyear %}
     {% endif %}
+
+      {% assign concert_date = concert.date | date: "%Y-%m-%d" %}
+      {% assign matching_affiche = affiches | find_exp:"affiche", "affiche.basename contains concert_date" %}
     <tr>
-      <td class="col-md-2"><a href="{{ concert.url }}">{% include date.liquid date=concert.date %}</a></td>
-      <td class="col-md-4"><a href="{{ concert.url }}">{{ concert.lieu}}</a></td>
-      <td class="col-md-3"><a href="{{ concert.url }}">{{ concert.title }}</a></td>
+        <td class="col-md-2"><a href="{{ concert.url }}">{% include date.liquid date=concert.date %}</a></td>
+        <td class="col-md-3"><a href="{{ concert.url }}">{{ concert.lieu}}</a></td>
+        <td class="col-md-4"><a href="{{ concert.url }}">{{ concert.title }}{% if matching_affiche != nil %} <div style="text-align: right; font-style: italic"><a href="{{ matching_affiche.path }}">(affiche)</a></div>{% endif %}</a></td>
     </tr>
     </tbody>
   {% endif %}

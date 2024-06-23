@@ -66,7 +66,7 @@ S. Barber - Sure on this shining night (Texte de James Agee, extrait de Permit M
 
   <div class="tab-content col-sm-9">
     <img class="img-responsive"
-         src="/affiches/2022-06-11_poesie_et_musique.jpg"
+         src="/_affiches/2022-06-11_poesie_et_musique.jpg"
          alt="Image de l'affiche du concert {{ page.title }}"
     />
   </div>
