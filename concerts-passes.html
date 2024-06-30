@@ -29,6 +29,12 @@ et autres manifestations
         <td class="col-md-2"><a href="{{ concert.url }}">{% include date.liquid date=concert.date %}</a></td>
         <td class="col-md-3"><a href="{{ concert.url }}">{{ concert.lieu}}</a></td>
         <td class="col-md-3"><a href="{{ concert.url }}">{{ concert.title }}</a></td>
+        {% if matching_affiche != nil %}<!--
+        Matching affiche: {{ matching_affiche }}
+        Path: {{ matching_affiche.path }}
+        Name: {{ matching_affiche.name }}
+        Modified: {{ matching_affiche.modified_time }}
+         -->{% endif %}
         <td class="col-md-1">{% if matching_affiche != nil %} <div style="text-align: right; font-style: italic"><a href="{{ matching_affiche.path }}">(affiche)</a></div>{% endif %}</td>
     </tr>
     </tbody>
