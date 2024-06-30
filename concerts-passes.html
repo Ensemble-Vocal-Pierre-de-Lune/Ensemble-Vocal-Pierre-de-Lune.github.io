@@ -26,6 +26,7 @@ et autres manifestations
       {% assign concert_date = concert.date | date: "%Y-%m-%d" %}
       {% assign matching_affiche = affiches | find_exp:"affiche", "affiche.basename contains concert_date" %}
     <tr>
+        <!-- Concert date: {{ concert_date }} -->
         <td class="col-md-2"><a href="{{ concert.url }}">{% include date.liquid date=concert.date %}</a></td>
         <td class="col-md-3"><a href="{{ concert.url }}">{{ concert.lieu}}</a></td>
         <td class="col-md-3"><a href="{{ concert.url }}">{{ concert.title }}</a></td>
