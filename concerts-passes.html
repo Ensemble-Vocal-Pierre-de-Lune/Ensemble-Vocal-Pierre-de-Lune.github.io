@@ -24,13 +24,14 @@ et autres manifestations
     {% endif %}
 
       {% assign concert_date = concert.date | date: "%Y-%m-%d" %}
-      {% assign matching_affiche = affiches | find_exp:"affiche", "affiche.basename contains concert_date" %}
+      {% assign matching_affiche = affiches | where_exp:"affiche", "affiche.basename contains concert_date" | first %}
     <tr>
         <!-- Concert date: {{ concert_date }} -->
         <td class="col-md-2"><a href="{{ concert.url }}">{% include date.liquid date=concert.date %}</a></td>
         <td class="col-md-3"><a href="{{ concert.url }}">{{ concert.lieu}}</a></td>
         <td class="col-md-3"><a href="{{ concert.url }}">{{ concert.title }}</a></td>
         {% if matching_affiche != nil %}<!--
+        Path: {{ matching_affiche.path }}
         {% for one_affiche in matching_affiche %}
         Path: {{ one_affiche.path }}
         Name: {{ one_affiche.name }}
