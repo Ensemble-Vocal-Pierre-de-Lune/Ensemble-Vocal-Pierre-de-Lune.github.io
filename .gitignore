@@ -7,3 +7,4 @@ affiches/Thumbs.db
 Gemfile.lock
 .jekyll-cache
 /vendor
+**/.DS_Store
