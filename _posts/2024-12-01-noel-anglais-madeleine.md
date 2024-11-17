@@ -6,6 +6,15 @@ categories: concert
 lieu: Temple de la Madeleine, Vieille-Ville
 ---
 
+<div class="col-sm-7">
+  <a href="/affiches/2024-12-01_noel-anglais-madeleine.pdf">
+    <img class="img-responsive"
+      src="/affiches/2024-12-01_noel-anglais-madeleine.jpg"
+      alt="Image de l'affiche du concert de Noël 2024"
+    />
+  </a>
+</div>
+
 En 2024, le désormais traditionnel concert de Noël de Pierre de Lune aura lieu, comme en 2023, au temple de la Madeleine,
 en Vieille-Ville de Genève, et reprendra le principe d'une entrée gratuite avec collecte à la sortie à la faveur
 d'une association caritative, formule rendue possible grâce au généreux soutien de nos mécènes.
@@ -22,9 +31,9 @@ Le _Te Deum_ sera précédé d'une belle sélection de cantiques de Noël : quel
 plus récents mais du très apprécié et consensuel John Rutter, et, seule concession à l'avant-gardisme du vingtième
 siècle, l'icônique _&laquo;The Lamb&raquo;_ de Tavener, sur une poésie de William Blake.
 
-Ainsi, le temps de fermer les yeux, serez-vous transporté (nous l'espérons !) au sein d'une de ces nombreuses 
-villes anglaises où, nonobstant la montée en puissance des divertissements électroniques, la tradition de célébrer Noël 
-par le chant reste toujours vivante.
+Ainsi, le temps de fermer les yeux, serez-vous transporté (nous l'espérons !) quelque part en Angleterre où,
+nonobstant la montée en puissance des divertissements électroniques, la tradition de la musique de Noël
+reste toujours vivante.
 
 <hr style="border-top: 3px double #8c8b8b"/>
 
@@ -35,17 +44,16 @@ to offer free entry, with a collection on exit for a selected charity.
 This year's programme is entirely in English. The highlight is Handel's _"Utrecht Te Deum"_ (HWV 278), which, while
 the title might suggest a text in Latin or perhaps in Dutch, was in fact composed in 1713, when Handel was already
 established in England, to celebrate the Peace of Utrecht which ended the long and bloody War of the
-Spanish Succession. It's a work overflowing with joy and gratitude -- the musical atmosphere will be familiar
-to anyone who knows the _Messiah_ -- with, among the effusions of praise, some moments of quiet reflection
-characterised by that piercing simplicity for which Handel had a particular talent.
+Spanish Succession. The musical atmosphere, brimming with joy and gratitude, will be familiar
+from the _Messiah_ -- though, among the effusions of praise, lie some moments of quiet reflectiveness, of that
+deceptive, piercing simplicity at which Handel so excels.
 
 In the first half, we will have a lovely selection of Christmas carols: some very well known classics, others more 
 recent from the much appreciated and definitely-not-avant-gardist John Rutter and - the only concession to 20th 
 century-style modernity - Taverner's iconic setting of William Blake's poem _The Lamb_.
 
-It's a programme that, we hope, if you close your eyes, might transport you in spirit to any of the many English churches
-and other venues where the tradition of Christmas music is still, notwithstanding the incursion of electronic
-entertainments, alive and kicking.
+It's a programme that, we hope, if you close your eyes, might transport you in place and perhaps in time, to
+the England where Christmas music is still a living tradition.
 
 <hr style="border-top: 3px double #8c8b8b"/>
 
