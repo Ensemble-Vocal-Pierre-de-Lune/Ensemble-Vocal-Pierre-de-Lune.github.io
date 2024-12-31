@@ -6,12 +6,25 @@ categories: concert
 lieu: Temple de la Madeleine, Vieille-Ville
 ---
 
+Programme 
+
 - Mozart : Vesperae solennes de Confessore KV 339
 - Joseph Haydn: Missa Cellensis (Mariazeller-Messe) Hob. XXII:8 
 
-<p style="text-align: center">
+<hr style="border-top: 3px double #8c8b8b"/>
+
+<p style="text-align: left">
+Ensemble Vocal Pierre de Lune<br/>
+Solistes :
+</p>
+<ul>
+<li style="list-style-type: none">Clémence Tilquin, soprano
+<li style="list-style-type: none">Valérie Bonnard, mezzo-soprano
+<li style="list-style-type: none">Fernando Cuellar, ténor
+<li style="list-style-type: none">Fabrice Raviola, baryton
+</ul>
+
 Ensemble Instrumental Romand<br/>
 Direction : Emmanuel Junod
-</p>
 
 <hr style="border-top: 3px double #8c8b8b"/>
