@@ -13,15 +13,13 @@ Programme
 
 <hr style="border-top: 3px double #8c8b8b"/>
 
-<p style="text-align: left">
 Ensemble Vocal Pierre de Lune<br/>
 Solistes :
-</p>
 <ul>
-<li style="list-style-type: none">Clémence Tilquin, soprano
-<li style="list-style-type: none">Valérie Bonnard, mezzo-soprano
-<li style="list-style-type: none">Fernando Cuellar, ténor
-<li style="list-style-type: none">Fabrice Raviola, baryton
+<li style="list-style-type: none">Clémence Tilquin, soprano</li>
+<li style="list-style-type: none">Valérie Bonnard, mezzo-soprano</li>
+<li style="list-style-type: none">Fernando Cuellar, ténor</li>
+<li style="list-style-type: none">Fabrice Raviola, baryton</li>
 </ul>
 
 Ensemble Instrumental Romand<br/>
