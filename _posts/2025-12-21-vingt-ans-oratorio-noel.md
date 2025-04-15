@@ -1,6 +1,6 @@
 ---
 layout: concert
-title: "Mozart et Haydn"
+title: "J. S. Bach : Oratorio de Noël BWV 248"
 date: 2025-12-21 
 categories: concert
 lieu: Cathédrale de Genève
