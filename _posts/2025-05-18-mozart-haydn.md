@@ -6,6 +6,15 @@ categories: concert
 lieu: Temple de la Madeleine, Vieille-Ville
 ---
 
+<div class="col-sm-7">
+  <a href="/affiches/2025-05-18_mozart-haydn.pdf">
+    <img class="img-responsive"
+      src="/affiches/2025-05-18_mozart-haydn.jpeg"
+      alt="Image de l'affiche du concert Mozart et Haydn"
+    />
+  </a>
+</div>
+
 Programme 
 
 - Mozart : Vesperae solennes de Confessore KV 339
