@@ -7,6 +7,6 @@ categories:
 lieu: Eglise de Collonges-sous-Salève
 ---
 
-&OElig;uvres pour ch&oelig;ur à capella de Francis Poulenc, Lili Boulanger.
+&OElig;uvres pour ch&oelig;ur à capella et avec piano de Francis Poulenc, Lili Boulanger.
 
 &OElig;uvres pour piano ; interprète : Kaori Kuroiwa.
