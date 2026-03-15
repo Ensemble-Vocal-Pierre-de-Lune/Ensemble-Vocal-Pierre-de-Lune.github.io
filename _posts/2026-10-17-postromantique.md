@@ -1,7 +1,7 @@
 ---
 layout: concert
 title: "Postromantiques"
-date: 2026-10-17 heure à confirmer
+date: 2026-10-17
 categories: 
   - concert
 lieu: salle Frank Martin
