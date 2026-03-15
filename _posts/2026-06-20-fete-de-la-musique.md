@@ -7,4 +7,4 @@ categories:
 lieu: Cour du Palais de Justice, place Bourg-de-Four 1
 ---
 
-&OElig;uvres pour ch&oelig;ur à capella de Francis Poulenc, Lili Boulanger.
+&OElig;uvres pour ch&oelig;ur à capella et avec piano de Francis Poulenc, Lili Boulanger.
